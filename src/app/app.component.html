@@ -1,0 +1,57 @@
+<nav class="navbar container-fluid navbar-expand-lg h-100 d-flex p-4">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light fs-3 " routerLink="home">START FRAMEWORK </a>
+  </div>
+  <div>
+    <div class="collapse navbar-collapse " id="navbarScroll">
+      <ul class="navbar-nav gap-3 me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item  ">
+          <a class="nav-link text-light rounded-3  fs-5" routerLink="about">ABOUT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link  rounded-3 text-light  fs-5" routerLink="portfolio">portfolio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-light rounded-3  fs-5 " routerLink="contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <app-home/>
+<app-about/>
+<app-portfolio/>
+<app-contact/> -->
+
+<router-outlet></router-outlet>
+
+<footer class="    w-100  footer">
+  <div class="locationdetails  w-100">
+    <div class="row  p-3 m-auto">
+      <div class="col-lg-4">
+        <div class="text-light text-center " >
+          <h1>LOCATION</h1>
+          <p>2215 John Daniel Drive</p>
+          <p>Clark, MO 65243 </p>
+        </div>
+      </div>
+      <div class="col-lg-4 text-light text-center">
+          <h1>AROUND THE WEB</h1>
+          <i class="fa-brands fa-facebook m-2 "></i>
+          <i class="fa-brands fa-twitter m-2 "></i>
+          <i class="fa-brands fa-linkedin m-2 "></i>
+          <i class="fa-solid fa-globe m-2 "></i>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="text-light  " >
+          <h1>ABOUT FREELANCER          </h1>
+          <p>2215 John Daniel Drive</p>
+          <p>Clark, MO 65243 </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark p-3 w-100">
+      <p class="text-light text-center ">Copyright © Your Website 2021</p>
+    </div>
+  </div>
+</footer>

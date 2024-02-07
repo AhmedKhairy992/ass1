@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Amatic+SC&family=Bitter:ital,wght@1,300&family=Montserrat:wght@100&family=Pacifico&family=Poppins:wght@900&family=Roboto+Slab&family=Roboto:ital,wght@0,400;0,500;1,400&family=Source+Sans+3&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.home{
+  background-color: #1ABC9C;
+}
+h1{
+  font-weight: 500  ;
+  font-size :30px;
+
+}
+.navbar{
+  background-color: #2C3E50;
+}
+
+.nav-link{
+  background-color: transparent;
+  transition: all 1s;
+}
+.nav-link:hover{
+  background-color: #1ABC9C;
+}
+footer{
+  background-color: #2C3E50;
+}
+.space{
+  position: relative;
+
+}
+
+

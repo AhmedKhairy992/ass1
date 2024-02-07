@@ -1,0 +1,68 @@
+
+.home{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.img-item{
+  position: relative;
+
+}
+
+.layaway{
+  background-color: transparent;
+  position: absolute;
+  width: 94%;
+  top:0;
+  bottom: 0;
+  left: 3%;
+  right: 0;
+  cursor: pointer;
+  opacity: .8;
+  transition: all 1s;
+}
+
+
+.img-item:hover .layaway{
+  background-color: #31AB93;
+}
+
+.layaway2{
+  color: white;
+  position: absolute;
+  width: 94%;
+  font-size: 50px;
+  top:40%;
+  transform: translate(-40% -40%);
+  bottom: 0;
+  left: 3%;
+  right: 0;
+  cursor: pointer;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.img-item:hover .layaway2{
+opacity: 1;}
+
+.space:after{
+  position: absolute;
+       content: "";
+       width: 60px;
+       height: 5px;
+       background-color:#19A689;
+       margin-left: 15px;
+       top: 50%;
+}
+.space::before{
+  position: absolute;
+       content: "";
+       width: 60px;
+       height: 5px;
+       background-color:#19A689;
+       top: 50%;
+      left: 50%;
+      transform: translate(-420%);
+      }
+

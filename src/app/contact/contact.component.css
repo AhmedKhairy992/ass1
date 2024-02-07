@@ -1,0 +1,33 @@
+.contact{
+  background-color: white;
+}
+
+.btn{
+  background-color:#1ABC9C;
+
+}
+
+.form-control{
+border-bottom: solid gray ;
+}
+
+
+.space:after{
+  position: absolute;
+       content: "";
+       width: 60px;
+       height: 5px;
+       background-color:#19A689;
+       margin-left: 15px;
+       top: 50%;
+}
+.space::before{
+  position: absolute;
+       content: "";
+       width: 60px;
+       height: 5px;
+       background-color:#19A689;
+       top: 50%;
+      left: 50%;
+      transform: translate(-350%);
+      }
